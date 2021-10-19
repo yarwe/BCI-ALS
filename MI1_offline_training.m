@@ -77,7 +77,7 @@ hold on
 %% Prepare Visual Cues - read the right/left/idle images
 trainingImage{1} = imread('square.jpeg','jpeg');
 trainingImage{2} = imread('arrow_left.jpeg','jpeg');
-trainingImage{3} = imread('arrow_right.jpeg','jpeg');
+trainingImage{3} = imread('redright.jpeg','jpeg');
     
 %% Prepare Training Vector
 trainingVec = prepareTraining(numTrials,numClasses);    % vector with the conditions for each trial
